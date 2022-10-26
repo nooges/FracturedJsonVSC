@@ -71,6 +71,11 @@
                     "default": 1,
                     "description": "Maximum complexity for compact multiline arrays."
                 },
+                "fracturedjsonvsc.MaxTableRowComplexity": {
+                    "type": "number",
+                    "default": 2,
+                    "description": "Maximum nesting level allowed as a row of a table-formatted array/object."
+                },
                 "fracturedjsonvsc.NestedBracketPadding": {
                     "type": "boolean",
                     "default": true,

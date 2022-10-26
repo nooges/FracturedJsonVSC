@@ -309,6 +309,7 @@ function formatterWithOptions(options: vscode.TextEditorOptions) {
     formatter.Options.MaxInlineComplexity = config.MaxInlineComplexity;
     formatter.Options.MaxInlineLength = config.MaxInlineLength;
     formatter.Options.MaxCompactArrayComplexity = config.MaxCompactArrayComplexity;
+    formatter.Options.MaxTableRowComplexity = config.MaxTableRowComplexity;
     formatter.Options.NestedBracketPadding = config.NestedBracketPadding;
     formatter.Options.SimpleBracketPadding = config.SimpleBracketPadding;
     formatter.Options.ColonPadding = config.ColonPadding;
